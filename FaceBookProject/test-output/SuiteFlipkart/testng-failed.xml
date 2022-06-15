@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SuiteFlipkart]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="TestFB(failed)">
+    <classes>
+      <class name="testClasses.VerifyHeadersFbTestNg">
+        <methods>
+          <include name="BrowserLaunch"/>
+          <include name="testclassInbocOn_Off"/>
+          <include name="logOut"/>
+          <include name="testclassMarket"/>
+          <include name="loginPage"/>
+          <include name="testclassGaming"/>
+          <include name="aftermethod"/>
+        </methods>
+      </class> <!-- testClasses.VerifyHeadersFbTestNg -->
+    </classes>
+  </test> <!-- TestFB(failed) -->
+</suite> <!-- Failed suite [SuiteFlipkart] -->

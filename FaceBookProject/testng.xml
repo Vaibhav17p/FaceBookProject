@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SuiteFB_FK" thread-count="2" parallel="tests" >
+
+  <test name="ChromeTest">
+  <parameter name="browserName" value="Chrome"/>
+    <classes> 
+      <class name="testClasses.VerifyHeadersFbTestNg"/>
+      
+    </classes>
+  </test> <!-- TestFB_FK -->
+ 
+	<test name="EdgeTest">
+    <parameter name="browserName" value="Edge"/>
+    <classes> 
+      <class name="testClasses.VerifyHeadersFbTestNg"/>
+      
+    </classes>
+  </test> <!-- TestFB_FK -->
+
+</suite> <!-- SuiteFB_FK -->
+
